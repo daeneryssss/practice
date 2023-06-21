@@ -14,6 +14,7 @@ body {
     height: 5vh;
     position: fixed;
     width: 100vw;
+    z-index: 3;
 }
 
 .head-section-logo {
@@ -228,4 +229,30 @@ body {
 
 .remain {
     color: #121212;
+}
+
+.video {
+    width: 90%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.steps-amount {
+    background-color: #58585D;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 1%;
+    width: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.steps-amount-number {
+    font-size: 20px;
+}
+
+.steps-amount-text {
+    font-size: 16px;
 }
