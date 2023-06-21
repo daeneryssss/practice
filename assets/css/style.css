@@ -1,0 +1,15 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+body {
+    font-family: 'Archivo', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo-header {
+    display: inline-block;
+    font-weight: 500;
+}

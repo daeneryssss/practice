@@ -1,0 +1,101 @@
+@import url(style.css);
+
+body
+{
+    background-color: #FBFBFD;
+}
+
+.rectangle {
+    height: 90vh;
+    width: 30vw;
+    background-color: #3B7EFF;
+    border: 1px solid #000000;
+    border-radius: 10% 3% 3% 10%;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 20%;
+    transform: translate(-20%, -50%);
+}
+
+.login {
+    width: 60vw;
+    height: 80vh;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px 0px #0F2048;
+}
+
+.login-main {
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-image {
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+.logo-image {
+    height: 40px;
+}
+
+.logo-header {
+    font-size: 40px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-text {
+    font-size: 32px;
+    padding: 5% 0 15%;
+}
+
+label {
+    font-size: 20px;
+}
+
+.login-form input {
+    border: 1px solid #EBEBF0;
+    border-radius: 5px;
+    height: 40px;
+    padding: 0 0 0 5%;
+    margin: 5% 0;
+}
+
+.forgot-pass {
+    color: #3B7EFF;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5% 0 15%;
+}
+
+.button {
+    width: 100%;
+    height: 50px;
+    background-color: #121212;
+    color: #FFFFFF;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.help {
+    color: #8E8E93;
+    font-size: 14px;
+    margin: 20% -100% -10% 30%;
+}

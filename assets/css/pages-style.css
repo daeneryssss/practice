@@ -1,0 +1,230 @@
+@import url(style.css);
+
+body {
+    background-color: #F0F0F0;
+}
+
+.dashboard-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FBFBFD;
+    justify-content: space-around;
+    padding: 1%;
+    height: 5vh;
+    position: fixed;
+    width: 100vw;
+}
+
+.head-section-logo {
+    width: 15%;
+}
+
+.logo-header {
+    font-size: 30px;
+}
+
+.logo-image {
+    height: 30px;
+}
+
+.head-section-search {
+    width: 65%;
+}
+
+#search {
+    padding: 10px 20px;
+    border: 1px solid #8E8E93;
+    border-radius: 50px;
+}
+
+.head-section-profile {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.icon {
+    opacity: 0.5;
+    height: 20px;
+}
+
+.mini {
+    height: 46px;
+    width: 46px;
+}
+
+.profile-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: #121212;
+    display: inline-block;
+}
+
+.status {
+    font-size: 14px;
+    color: #28A745;
+    display: inline-block;
+}
+
+.status::before {
+    content: '\25CF';
+}
+
+.navigation {
+    background-color: #FBFBFD;
+    height: 90vh;
+    width: 15%;
+    margin-top: 2px;
+    position: fixed;
+    top: 10vh;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.menu-item-link {
+    width: 80%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10%;
+    margin: 3% 0;
+}
+
+.item-icon {
+    height: 50%;
+}
+
+.item-text {
+    display: inline-block;
+    color: #121212;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.active-menu-item {
+    border: #3B7EFF solid 1px;
+    border-radius: 50px;
+}
+
+.active-menu-item .item-text::after {
+    content: '\25CF';
+    color: #3B7EFF;
+    padding-left: 5%;
+}
+
+.content {
+    position: absolute;
+    top: 10vh;
+    left: 20vw;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-section {
+    background-color: #FFFFFF;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 96px;
+    padding: 3%;
+}
+
+.welcome-text {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    padding-left: 3%;
+}
+
+.welcome-photo {
+    height: 100%;
+}
+
+.welcome-header {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.last-visit {
+    font-size: 14px;
+    color: #58585D;
+    margin: 1% 0;
+}
+
+.therapist {
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    width: 20%;
+}
+
+.client-name, .therapist-name {
+    color: #3B7EFF;
+}
+
+.button-contact-now {
+    position: absolute;
+    bottom: -10%;
+    left: 23%;
+    width: 12%;
+    color: #121212;
+    background-color: #EFEFFF;
+    padding: 1% 2%;
+    border-radius: 50px;
+}
+
+.button-contact-now::before {
+    content: '\25CF';
+    color: #3B7EFF;
+    padding-right: 3%;
+}
+
+.progress-bar {
+    width: 90%;
+    background-color: #EBEBF0;
+    z-index: 1;
+}
+
+.active-progress {
+    background-color: #3B7EFF;
+    width: 40%;
+    z-index: 2;
+}
+
+.treatment-text {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.treatment-amount {
+    background-color: #EFEFFF;
+    font-size: 20px;
+    font-weight: 500;
+    color: #121212;
+}
+
+.amount {
+    color: #3B7EFF;
+}
+
+.remain {
+    color: #121212;
+}
