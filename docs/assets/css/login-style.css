@@ -7,7 +7,7 @@ body
 
 .rectangle {
     height: 90vh;
-    width: 30vw;
+    width: 35vw;
     background-color: #3B7EFF;
     border: 1px solid #000000;
     border-radius: 10% 3% 3% 10%;
@@ -35,6 +35,8 @@ body
 }
 
 .login-main {
+    position: relative;
+    width: 100%;
     margin: 10%;
     display: flex;
     flex-direction: column;
@@ -92,10 +94,13 @@ label {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 20px;
 }
 
 .help {
     color: #8E8E93;
     font-size: 14px;
-    margin: 20% -100% -10% 30%;
+    position: absolute;
+    bottom: -40px;
+    right: -40px;
 }

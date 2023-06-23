@@ -1,0 +1,112 @@
+@media screen and (max-width: 1500px) {
+    .login {
+        width: 65vw;
+        height: 65vh;
+    }
+
+    .logo-image {
+        height: 24px;
+    }
+
+    .logo-header {
+        font-size: 24px;
+    }
+
+    .login-text {
+        font-size: 20px;
+    }
+
+    label, .button {
+        font-size: 16px;
+    }
+    
+    .forgot-pass, .help {
+        font-size: 12px;
+    }
+
+    .button {
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .rectangle {
+        width: 60vw;
+    }
+    .login {
+        height: 50vh;
+        width: 80vw;
+    }
+
+    .logo-image {
+        height: 20px;
+    }
+
+    .logo-header {
+        font-size: 20px;
+    }
+
+    .login-text {
+        font-size: 16px;
+    }
+
+    label, .button {
+        font-size: 14px;
+    }
+
+    .login-form input {
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .help {
+        bottom: -30px;
+        right: -10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .rectangle {
+        width: 80vw;
+    }
+
+    .login {
+        height: 70vh;
+    }
+
+    .login-image {
+        opacity: 0.2;
+        width: 100%;
+    }
+
+    .login-main {
+        margin: 20% 0;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .logo-image {
+        height: 30px;
+    }
+
+    .logo-header {
+        font-size: 30px;
+    }
+
+    .login-text {
+        font-size: 24px;
+    }
+
+    label, .button {
+        font-size: 18px;
+    }
+
+    .forgot-pass, .help {
+        font-size: 14px;
+    }
+
+    .help {
+        right: 10px;
+    }
+}
