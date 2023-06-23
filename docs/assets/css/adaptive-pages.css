@@ -1,0 +1,317 @@
+@media screen and (max-width: 1500px) { 
+    /* adaptive header */
+    .dashboard-head {
+        height: 6vh;
+    }
+
+    .logo-image {
+        height: 20px;
+    }
+
+    .logo-header {
+        font-size: 20px;
+    }
+
+    .profile-name {
+        font-size: 14px;
+    }
+
+    .status {
+        font-size: 12px;
+    }
+
+    .head-section-search {
+        width: 55%;
+    }
+
+    /* adaptive navigation menu */
+    .navigation {
+        top: 11vh;
+        width: 16%;
+    }
+
+    .item-text {
+        font-size: 14px;
+    }
+
+    /* adaptive main section */
+    .content {
+        top: 11vh;
+    }
+
+    .welcome-header {
+        font-size: 30px;
+    }
+
+    .last-visit {
+        margin: 2% 0;
+    }
+
+    .therapist {
+        width: 30%;
+    }
+
+    .button-contact-now {
+        left: 30%;
+        width: 17%;
+    }
+
+    /*treatment sections*/
+    .progress-text {
+        margin-top: 0;
+    }
+
+    .button-series {
+        font-size: 24px;
+        width: 11%;
+    }
+
+    .treatment-header {
+        font-size: 24px;
+    }
+
+    .treatment-text {
+        font-size: 12px;
+    }
+
+    .treatment-amount {
+        font-size: 16px;
+    }
+
+    .treatment-number {
+        font-size: 24px;
+    }
+
+    .next-step {
+        font-size: 18px;
+    }
+
+    .next-step-text {
+        font-size: 16px;
+    }
+
+    .steps-amount {
+        font-size: 18px;
+        width: 10%;
+    }
+
+    .steps-amount-text {
+        font-size: 14px;
+    }
+
+    .button-continue {
+        font-size: 18px;
+        width: 22%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    /* adaptive header */
+    .dashboard-head {
+        height: 6vh;
+    }
+
+    .head-section-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .logo-header {
+        font-size: 16px;
+    }
+
+    .head-section-search {
+        width: 35%;
+    }
+
+    #search {
+        width: 45%;
+        padding-left: 15px;
+    }
+
+    /* adaptive navigation menu */
+    .navigation
+    {
+        position: fixed;
+        width: 100vw;
+        height: 8vh;
+        top: 8vh;        
+    }
+
+    .item-icon {
+        height: 12px;
+    }
+
+    .menu {
+        height: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0;
+    }
+
+    .menu-item-link {
+        width: 17%;
+        padding: 1% 0 1% 1%;
+    }
+
+    .item-text {
+        font-size: 12px;
+    }
+
+    /* adaptive main section */
+
+    .content {
+        top: 17vh;
+        width: 88vw;
+        left: 5vw;
+    }
+
+    .therapist {
+        width: 35%;
+        font-size: 14px;
+    }
+
+    .button-contact-now {
+        bottom: -5%;
+        left: 37%;
+        font-size: 14px;
+        width: 21%;
+    }
+
+    /*treatment sections*/
+    .progress-text {
+        margin-top: 1%;
+        font-size: 12px;
+    }
+
+    .button-series {
+        font-size: 16px;
+    }
+
+    .treatment-header {
+        font-size: 16px;
+        width: 40%;
+    }
+
+    .treatment-text {
+        font-size: 11px;
+    }
+
+    .treatment-amount {
+        font-size: 12px;
+    }
+
+    .treatment-number {
+        font-size: 16px;
+    }
+
+    .next-step {
+        font-size: 14px;
+    }
+
+    .next-step-text {
+        font-size: 12px;
+    }
+
+    .video {
+        height: 300px;
+    }
+
+    .steps-amount {
+        font-size: 14px;
+        width: 15%;
+    }
+
+    .steps-amount-text {
+        font-size: 12px;
+    }
+
+    .button-continue {
+        font-size: 14px;
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* adaptive header */
+    .head-section-logo {
+        width: 20%;
+    }
+
+    .logo-header {
+        font-size: 14px;
+    }
+
+    .head-section-search {
+        width: 25%;
+    }
+
+    #search {
+        width: 70%;
+        padding-left: 15px;
+    }
+
+    /* adaptive navigation menu */
+    .navigation {
+        height: 7vh;
+    }
+
+    .item-text {
+        display: none;
+    }
+
+    .menu-item-link {
+        width: 3%;
+        padding: 2%;
+    }
+
+    /* adaptive main section */
+    .content {
+        top: 16vh;
+        width: 90vw;
+    }
+
+    .welcome-header {
+        font-size: 24px;
+    }
+
+    .therapist {
+        width: 41%;
+    }
+
+    .button-contact-now {
+        width: 26%;
+        left: 45%;
+    }
+
+    /*treatment sections*/
+    .button-series {
+        font-size: 14px;
+    }
+
+    .treatment-header {
+        font-size: 14px;
+        width: 35%;
+    }
+
+    .treatment-number {
+        font-size: 14px;
+    }
+
+    .next-step {
+        font-size: 12px;
+    }
+
+    .steps-amount {
+        font-size: 12px;
+    }
+
+    .button-continue {
+        font-size: 12px;
+        width: 30%;
+        font-weight: 500;
+    }
+}
