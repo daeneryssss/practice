@@ -205,13 +205,22 @@ body {
     width: 12%;
     color: #121212;
     background-color: #EFEFFF;
-    padding: 1% 2%;
+    padding: 1%;
 }
 
 .button-contact-now::before {
     content: '\25CF';
     color: #3B7EFF;
     padding-right: 3%;
+}
+
+.button-contact-now:hover {
+    background-color: #3B7EFF;
+    color: #EFEFFF;
+}
+
+.button-contact-now:hover::before {
+    color: #EFEFFF;
 }
 
 /* styling the second section (all sections with treatments will look like this) */
@@ -265,6 +274,7 @@ body {
     font-size: 30px;
     font-weight: 500;
     color: #3B7EFF;
+    background-color: #FFFFFF;
     border: 2px solid #3B7EFF;
     padding: 0.5% 1%;
     width: 10%;
@@ -274,6 +284,15 @@ body {
     content: '\25CF';
     color: #3B7EFF;
     padding-right: 5%;
+}
+
+.button-series:hover {
+    color: #FFFFFF;
+    background-color: #3B7EFF;
+}
+
+.button-series:hover::before {
+    color: #FFFFFF;
 }
 
 .treatment-header {
@@ -373,6 +392,12 @@ body {
     font-weight: 600;
 }
 
+.button-continue:hover {
+    background-color: #FFFFFF;
+    color: #121212;
+    outline: 3px solid #121212;
+}
+
 /* page profile.html */
 
 .button-log-out {
@@ -381,4 +406,10 @@ body {
     color: #FFFFFF;
     padding: 1%;
     font-size: 18px;
+}
+
+.button-log-out:hover {
+    background-color: #FFFFFF;
+    color: #3B7EFF;
+    outline: 2px solid #3B7EFF;
 }
