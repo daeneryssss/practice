@@ -13,3 +13,10 @@ a {
     display: inline-block;
     font-weight: 500;
 }
+
+.button {
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -206,7 +206,6 @@ body {
     color: #121212;
     background-color: #EFEFFF;
     padding: 1% 2%;
-    border-radius: 50px;
 }
 
 .button-contact-now::before {
@@ -268,7 +267,6 @@ body {
     color: #3B7EFF;
     border: 2px solid #3B7EFF;
     padding: 0.5% 1%;
-    border-radius: 50px;
     width: 10%;
 }
 
@@ -367,13 +365,20 @@ body {
 }
 
 .button-continue {
-    display: inline-block;
-    text-align: center;
     width: 20%;
     background-color: #121212;
     color: #FFFFFF;
     padding: 1%;
-    border-radius: 50px;
     font-size: 20px;
     font-weight: 600;
+}
+
+/* page profile.html */
+
+.button-log-out {
+    width: 20%;
+    background-color: #3B7EFF;
+    color: #FFFFFF;
+    padding: 1%;
+    font-size: 18px;
 }

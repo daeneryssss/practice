@@ -233,6 +233,11 @@
         font-size: 14px;
         width: 25%;
     }
+
+    /* page profile.html */
+    .button-log-out {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -250,8 +255,8 @@
     }
 
     #search {
-        width: 70%;
-        padding-left: 15px;
+        width: 75%;
+        padding-left: 10px;
     }
 
     /* adaptive navigation menu */
@@ -274,44 +279,69 @@
         width: 90vw;
     }
 
+    .welcome {
+        height: 80px;
+    }
+
     .welcome-header {
-        font-size: 24px;
+        font-size: 20px;
+    }
+
+    .last-visit {
+        font-size: 12px;
+        margin: 3% 0;
     }
 
     .therapist {
-        width: 41%;
+        width: 50%;
+        font-size: 12px;
     }
 
     .button-contact-now {
-        width: 26%;
-        left: 45%;
+        width: 35%;
+        left: 53%;
     }
 
     /*treatment sections*/
-    .button-series {
+    .treatment-head {
+        display: block;
+    }
+
+    .progress-text {
+        margin-bottom: 1%;
+    }
+    
+    .button-series, .treatment-number, .treatment-header {
         font-size: 14px;
     }
 
     .treatment-header {
-        font-size: 14px;
-        width: 35%;
+        width: 70%;
+        display: inline-block;
     }
 
-    .treatment-number {
-        font-size: 14px;
+    .treatment-text, .treatment-amount {
+        display: inline-block;
     }
 
-    .next-step {
-        font-size: 12px;
+    .treatment-amount {
+        margin: 2%;
+        width: 20%;
+        text-align: center;
     }
 
-    .steps-amount {
-        font-size: 12px;
+    .next-step, .steps-amount {
+        font-size: 10px;
     }
 
     .button-continue {
         font-size: 12px;
-        width: 30%;
+        width: 35%;
         font-weight: 500;
+    }
+
+    /* page profile.html */
+    .button-log-out {
+        font-size: 14px;
     }
 }
